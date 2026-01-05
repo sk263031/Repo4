@@ -45,14 +45,18 @@
     </style>
 </head>
 
-<body>
-    <div class="container">
-        <h1>Welcome to DevOps</h1>
-        <div class="author">- SUBHRENDU</div>
-		
-    </div>
-	<h1>THIS FILE COMIND FROM LOCAL WONDOWS FOLDER</h1>
-<p>UPLOADED THROUGH JENKINS.</p>
+<body bgcolor=orange>
+<p> <h1>Shbhrendu</h1></p>
+
+  
+<h2 >Local Jenkins Pipeline-NOT in AWS-Jenkins pipeline</h2>
+
+file changed in local folder. Then did git push to send to github.
+Then ran the jenkins running on local laptop
+
+</h2>.
+</p>
+
 </body>
 </html>
 
