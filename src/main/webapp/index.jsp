@@ -1,61 +1,34 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Welcome Page</title>
+    <title>My Name Page</title>
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: "Segoe UI", Arial, sans-serif;
-            background: linear-gradient(135deg, red, yellow);
-            height: 100vh;
+        body {            
+            background-color: yellow;
             display: flex;
+            flex-direction: column; /* stack content vertically */
             justify-content: center;
             align-items: center;
-        }
-
-        .container {
+            height: 100vh; /* full screen height */
             text-align: center;
-            background: rgba(255, 255, 255, 0.15);
-            padding: 40px 60px;
-            border-radius: 20px;
-            backdrop-filter: blur(10px);
-            color: white;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-            animation: fadeIn 1.5s ease;
+            font-family: Arial, sans-serif;
         }
-
         h1 {
-            font-size: 42px;
-            margin-bottom: 10px;
-            letter-spacing: 1px;
+            color: blue;
+            font-size: 48px;
+            margin-bottom: 20px;
         }
-
-        .author {
-            font-size: 16px;
-            opacity: 0.8;
-            margin-top: 5px;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
+        p {
+            color: black;
+            font-size: 18px;
+            margin: 5px 0;
         }
     </style>
 </head>
-<body bgcolor=yellow>
-<p> <h1>Shbhrendu</h1>
+<body>
+    <h1>Shubhrendu</h1>
 
-
-<h2 >Local Jenkins Pipeline-NOT in AWS-Jenkins pipeline</h2>
-
-file changed in local folder. Then did git push to send to github.
-Then ran the jenkins running on local laptop
-
-</h2>.
-</p>
-
+    <p>The page is coming from code added from Local laptop using git to remote git-repo.</p>
+    <p>Then Running Pipeline code - from Jenkins installed on Local Laptop.</p>
 </body>
 </html>
-
