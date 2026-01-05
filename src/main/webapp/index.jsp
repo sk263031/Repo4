@@ -44,16 +44,12 @@
         }
     </style>
 </head>
-
+<h1>Shbhrendu</h1>
 <body bgcolor=orange>
-<p> <h1>Shbhrendu</h1>
-
-  
+<p>   
 <h2 >Local Jenkins Pipeline-NOT in AWS-Jenkins pipeline
-
 file changed in local folder. Then did git push to send to github.
 Then ran the jenkins running on local laptop
-
 </h2>.
 </p>
 
