@@ -29,6 +29,6 @@
     <h1>Shubhrendu</h1>
 
     <p>The page is coming from code added from Local laptop using git to remote git-repo.</p>
-    <p>Then Running Pipeline code - from Jenkins installed on Local Laptop-NOT AWS.</p>
+    <p>Then Running Pipeline code - from Jenkins installed on  AWS.</p>
 </body>
 </html>
