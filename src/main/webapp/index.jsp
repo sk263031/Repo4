@@ -4,7 +4,7 @@
     <title>My Name Page</title>
     <style>
         body {            
-            background-color: yellow;
+            background-color: red;
             display: flex;
             flex-direction: column; /* stack content vertically */
             justify-content: center;
